@@ -24,11 +24,11 @@ html{
     flex-wrap: wrap;
 }
 
-/* [class*="col-"] {
+[class*="col-"] {
     flex-shrink: 0;
     flex-grow: 0;
     flex-basis: auto;
-} */
+}
 
     /* COLONNE FORMATO MOBILE */
 .col-xs-1{
@@ -47,8 +47,8 @@ html{
 }
 
 .col-xs-4{
-    flex-basis: calc(100% / 12 * 1);
-    max-width: calc(100% / 12 * 1);
+    flex-basis: calc(100% / 12 * 4);
+    max-width: calc(100% / 12 * 4);
 }
 
 .col-xs-5{
